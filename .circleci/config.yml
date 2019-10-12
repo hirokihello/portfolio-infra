@@ -25,6 +25,7 @@ jobs:
           - checkout
           - run: npm install
           - run: |
+              npm install -g aws-cdk
               npm run build
               # cdk deploy -c domain=mystaticsite.com -c subdomain=www
               cdk deploy
