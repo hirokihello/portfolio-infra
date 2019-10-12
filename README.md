@@ -1,3 +1,9 @@
+#### what this is?
+A. cdk of my portfolio site's infra
+
+my portfolio → https://hirokihello.xyz
+my portfolio(github) → https://github.com/hirokihello/portfolio
+
 # Useful commands
 
  * `npm run build`   compile typescript to js
