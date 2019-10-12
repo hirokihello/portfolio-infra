@@ -2,6 +2,10 @@
 import cdk = require('@aws-cdk/core');
 import { StaticSite } from './sites';
 
+interface ProcessEnv {
+  [key: string]: string | undefined;
+}
+
 export class PortfolioInfraStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
