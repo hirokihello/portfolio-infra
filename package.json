@@ -33,7 +33,7 @@
     "@aws-cdk/aws-route53-targets": "*",
     "@aws-cdk/aws-s3": "^1.16.3",
     "@aws-cdk/aws-s3-assets": "^1.16.3",
-    "@aws-cdk/aws-s3-deployment": "*",
+    "@aws-cdk/aws-s3-deployment": "^1.16.3",
     "@aws-cdk/core": "^1.16.3",
     "@aws-cdk/cx-api": "^1.16.3",
     "@aws-cdk/region-info": "^1.16.3",
