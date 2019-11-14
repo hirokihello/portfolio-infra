@@ -13,12 +13,6 @@ export interface StaticSiteProps {
     siteSubDomain: string;
 }
 
-/**
- * Static site infrastructure, which deploys site content to an S3 bucket.
- *
- * The site redirects from HTTP to HTTPS, using a CloudFront distribution,
- * Route53 alias record, and ACM certificate.
- */
 export class StaticSite extends Construct {
     constructor(parent: Construct, name: string, props: StaticSiteProps) {
         super(parent, name);
