@@ -16,7 +16,7 @@
     "jest": "^24.9.0",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
-    "typescript": "~3.6.2"
+    "typescript": "3.7.2"
   },
   "dependencies": {
     "@aws-cdk/assert": "^1.16.3",
