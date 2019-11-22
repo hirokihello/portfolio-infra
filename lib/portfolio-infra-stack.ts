@@ -15,6 +15,7 @@ export class PortfolioInfraStack extends cdk.Stack {
 }
 
 const app = new cdk.App();
+console.log("hogehgoe")
 
 new PortfolioInfraStack(app, 'MyStaticSite', {
   env: {
