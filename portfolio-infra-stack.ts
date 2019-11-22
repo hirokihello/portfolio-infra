@@ -13,14 +13,3 @@ export class PortfolioInfraStack extends cdk.Stack {
     });
   }
 }
-
-const app = new cdk.App();
-console.log("hogehgoe")
-
-new PortfolioInfraStack(app, 'MyStaticSite', {
-  env: {
-    region: 'us-east-1',
-    account: process.env.CDK_DEFAULT_ID || process.env.AWS_ACCOUNT_ID
-}});
-
-app.synth();
