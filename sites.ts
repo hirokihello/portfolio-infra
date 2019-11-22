@@ -17,8 +17,8 @@ export class StaticSite extends Construct {
     constructor(parent: Construct, name: string, props: StaticSiteProps) {
         super(parent, name);
 
-        const zone = route53.HostedZone.fromLookup(this, 'Zone', { domainName: props.domainName });
         const siteDomain = props.siteSubDomain + '.' + props.domainName;
+        const zone = route53.HostedZone.fromLookup(this, 'Zone', { domainName: siteDomain });
         new cdk.CfnOutput(this, 'Site', { value: 'https://' + siteDomain });
 
         // Content bucket
